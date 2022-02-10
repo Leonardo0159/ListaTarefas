@@ -7,7 +7,7 @@ const App = () => {
 
   const [list, setList] = useState<Item[]>([
     { id: 1, name: "teste 1", done: false},
-    { id: 2, name: "teste 2", done: false}
+    { id: 2, name: "teste 2", done: true}
   ]);
 
   return (
